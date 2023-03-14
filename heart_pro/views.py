@@ -15,7 +15,7 @@ def about(request):
 
 
 def my_skills(request):
-    return render(request, 'heart_one/skills')
+    return render(request, 'heart_one/skills.html')
 
 
 def my_experience(request):
